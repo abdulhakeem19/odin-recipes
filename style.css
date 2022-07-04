@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+}
+
+body{
+    margin-left: 30px;
+}
+
+.prep-info ul{
+    float: right;
+    list-style:none;
+    line-height: 2.5;
+    border: solid grey;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+img{
+    
+}
+.main-pic{
+    width:40%;
+    margin: 0 20px;
+}
+
+hr{
+    border: none;
+    margin-top: 20px;
+    height: 1px;
+    width: 75%;
+    background: gray;
+}
+
+.ingrediants ul{
+    list-style: disc;
+    line-height: 2;
+}
+
