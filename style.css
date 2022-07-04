@@ -1,38 +1,132 @@
-.main{
-    display: flex;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    margin-left: 30px;
+header h1 {
+  text-align: center;
+  margin-top: 2rem;
 }
 
-.prep-info ul{
-    float: right;
-    list-style:none;
-    line-height: 2.5;
-    border: solid grey;
-    padding-left: 20px;
-    margin-left: 20px;
+body {
+  font-size: 25px;
+  font-family: cursive;
+  justify-content: center;
+}
+a {
+  overflow: hidden;
+}
+.title {
+  text-align: center;
 }
 
-img{
-    
-}
-.main-pic{
-    width:40%;
-    margin: 0 20px;
-}
-
-hr{
-    border: none;
-    margin-top: 20px;
-    height: 1px;
-    width: 75%;
-    background: gray;
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
 
-.ingrediants ul{
-    list-style: disc;
-    line-height: 2;
+.img {
+  width: 35rem;
+  height: 45rem;
 }
 
+.img:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out;
+  border-radius: 2rem;
+  transition: 0.5s;
+}
+
+.card__btn {
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: silver;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: cursive;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__body h3 {
+  padding: 1rem;
+}
+
+.li__remove {
+  list-style-type: none;
+}
+
+.margin__top {
+  border: 2px solid black;
+  margin-top: 2rem;
+}
+.card {
+  overflow: hidden;
+  box-shadow: 0px 2px 20px rgb(171, 171, 171);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ingrediants__container {
+  padding: 1rem;
+  padding-bottom: 11rem;
+  line-height: 2;
+  border-radius: 2rem;
+}
+
+.description {
+  border: 2px solid black;
+  padding: 2rem;
+  padding-bottom: 19rem;
+  border-radius: 2rem;
+}
+
+#cheesecake {
+  padding-bottom: 21rem;
+}
+
+#cheesecake2 {
+  padding-bottom: 7rem;
+}
+
+#potatosalad {
+  padding-bottom: 3.5rem;
+}
+
+.right__container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+}
+
+.left__container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+}
+.cake {
+  object-fit: cover;
+  width: 30rem;
+  height: 50rem;
+  border-radius: 2rem;
+}
+
+.steps__container {
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+}
